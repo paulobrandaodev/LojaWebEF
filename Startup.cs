@@ -14,6 +14,7 @@ namespace LojaWebEF
 {
     public class Startup
     {
+        IConfiguration Configuration{get;}
         public Startup(IConfiguration configuration){
             Configuration = configuration;
         }
