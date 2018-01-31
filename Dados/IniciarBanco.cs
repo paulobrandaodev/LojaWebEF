@@ -15,7 +15,7 @@ namespace LojaWebEF.Dados
                 contexto.Cliente.Add(cliente);
 
             var produto = new Produto()
-                {NomeProduto="Mouse",Descricao="Mouse Microsoft",Preco=20,quantidade=10};
+                {NomeProduto="Mouse",Descricao="Mouse Microsoft",Preco=20,Quantidade=10};
                 contexto.Produto.Add(produto);
 
             var pedido = new Pedido()
